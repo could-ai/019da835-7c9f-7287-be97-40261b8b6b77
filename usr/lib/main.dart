@@ -77,7 +77,7 @@ class _ResearchAppState extends State<ResearchApp> {
             MaterialPage(
               key: const ValueKey('TocPage'),
               child: TocScreen(
-                chapters: researchChapters,
+                chapters: ResearchData.chapters,
                 onChapterSelected: _navigateToChapter,
                 onBack: _navigateBack,
               ),
